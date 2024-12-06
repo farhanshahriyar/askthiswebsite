@@ -13,7 +13,7 @@ export const ChatWrapper = ({ sessionId }: { sessionId: string }) => {
     return (
         <div className="relative min-h-full bg-zinc-900 flex divide-y divide-zinc-700 flex-col justify-between gap-2">
             <div className="flex-1 text-white bg-zinc-800 justify-between flex flex-col">
-                {JSON.stringify(messages)}
+                {/* {JSON.stringify(messages)}  // db information shows top */} 
                 <Messages messages={messages} />
             </div>
 
